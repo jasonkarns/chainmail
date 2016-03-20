@@ -13,9 +13,9 @@ Gem::Specification.new do |spec|
   Methods should perform a command (side effect) or return a value, never both.
   This is Command/Query Separation. However, it is convenient to allow command
   methods to return `self` such that they are chainable. This module does just
-  that. Declare which methods are chainable by name, and they are wrapped
-  to return self.
-  DESC
+  that. Declare which methods are chainable by name, and they are wrapped to
+  return self.
+DESC
 
   spec.files         = Dir.glob(%w( lib LICENSE.txt README.md ))
   spec.require_path  = "lib"
